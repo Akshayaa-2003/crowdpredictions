@@ -1,51 +1,16 @@
-﻿# Crowd Prediction Website
+# React + Vite
 
-A full-stack web application that predicts crowd density at public locations using contextual inputs and machine-learning-inspired logic.  
-The system helps users plan safer and smarter visits by understanding crowd conditions in advance.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- User-friendly React frontend
-- City and location-based crowd prediction
-- Social media activity level as input
-- Real-time contextual factors (time & day)
-- Backend built with Node.js and Express
-- MongoDB used to store prediction data
-- Clean REST API architecture
-- Responsive and modern UI
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🧠 System Flow
+## Expanding the ESLint configuration
 
-1. User selects city, location, and activity level  
-2. Frontend sends data to backend API  
-3. Backend processes input and predicts crowd level  
-4. Prediction result is stored in MongoDB  
-5. Result is sent back and displayed to the user  
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-- React
-- CSS (custom UI)
-
-### Backend
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- CORS
-
-
-### Backend
-```bash
-cd backend
-npm install
-npm start
-# crowd-prediction-website
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
